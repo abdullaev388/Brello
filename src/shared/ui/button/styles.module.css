@@ -1,0 +1,74 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(16 24 40 / 5%);
+    transition: background-color 200ms linear;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button.sm {
+    padding: var(--button-sm);
+    font-size: var(--text-sm);
+}
+
+.button.md {
+    padding: var(--button-md);
+}
+
+.button.lg {
+    padding: var(--button-lg);
+    font-size: var(--text-md);
+}
+
+.button.xl {
+    padding: var(--button-xl);
+}
+
+.button.size-2xl {
+    padding: var(--button-2xl);
+    font-size: var(--text-lg);
+    column-gap: 12px;
+}
+
+.button.primary {
+    color: white;
+    border: 1px solid var(--primary600);
+    background-color: var(--primary600);
+}
+
+.button.primary:hover {
+    border: 1px solid var(--primary700);
+    background-color: var(--primary700);
+}
+
+.button.primary:focus {
+    box-shadow: 0 0 0 4px var(--primary100), 0 1px 2px 0 rgb(16 24 40 / 5%);
+}
+
+.button.primary:disabled {
+    border: 1px solid var(--primary200);
+    background-color: var(--primary200);
+}
+
+.button.secondary {
+    color: var(--gray700);
+    border: 1px solid var(--gray300);
+    background-color: white;
+}
+
+.button.secondary:hover {
+    color: var(--gray800);
+    background-color: var(--gray50);
+}
+
+.button.secondary:focus {
+    box-shadow: 0 0 0 4px var(--gray100), 0 1px 2px 0 rgb(16 24 40 / 5%);
+}
+
+.button.secondary:disabled {
+    color: var(--gray300)
+}

@@ -1,0 +1,74 @@
+@import url("modern-normalize/modern-normalize.css");
+
+:root {
+    /* Heading text */
+    --display-xs: 24px;
+    --display-sm: 30px;
+    --display-md: 36px;
+    --display-lg: 48px;
+    --display-xl: 60px;
+    --display-2xl: 72px;
+
+    /* Small size text */
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-lg: 18px;
+    --text-xl: 20px;
+
+    /* Button paddings */
+    --button-sm: 8px 14px;
+    --button-md: 10px 16px;
+    --button-lg: 10px 18px;
+    --button-xl: 12px 20px;
+    --button-2xl: 16px 28px;
+
+    /* Gray colors */
+    --gray900: #101828;
+    --gray800: #1D2939;
+    --gray700: #344054;
+    --gray600: #475467;
+    --gray500: #667085;
+    --gray400: #98A2B3;
+    --gray300: #D0D5DD;
+    --gray200: #EAECF0;
+    --gray100: #F2F4F7;
+    --gray50: #F9FAFB;
+    --gray25: #FCFCFD;
+
+    /* Primary colors */
+    --primary900: #00359E;
+    --primary800: #0040C1;
+    --primary700: #004EEB;
+    --primary600: #155EEF;
+    --primary500: #2970FF;
+    --primary400: #528BFF;
+    --primary300: #84ADFF;
+    --primary200: #B2DDFF;
+    --primary100: #D1E9FF;
+    --primary50: #EFF4FF;
+    --primary25: #F5F8FF;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+#root {
+    height: 100%;
+    isolation: isolate;
+}
